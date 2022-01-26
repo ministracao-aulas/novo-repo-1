@@ -49,49 +49,6 @@
           },
           "response": [
             {
-              "id": "3ee4a71a-16d3-4006-8146-19610f4d2baa",
-              "name": "response",
-              "originalRequest": {
-                "auth": {
-                  "type": "noauth"
-                },
-                "method": "GET",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  },
-                  {
-                    "key": "Accept",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/api/ola/:pessoa",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "api",
-                    "ola",
-                    ":pessoa"
-                  ],
-                  "variable": [
-                    {
-                      "key": "pessoa",
-                      "value": "Fulano de Tal"
-                    }
-                  ]
-                }
-              },
-              "code": 200,
-              "_postman_previewlanguage": "Text",
-              "header": [],
-              "cookie": [],
-              "responseTime": null,
-              "body": "{ \"message\": \"Olá Fulano\" }"
-            },
-            {
               "id": "e14c9174-3e8f-433e-93c7-ad2a4487c55b",
               "name": "api/ola/{pessoa}",
               "originalRequest": {
@@ -185,7 +142,7 @@
   ],
   "variable": [
     {
-      "id": "b4c77245-c1d2-4f2b-a8b8-91a548024316",
+      "id": "c8de56e3-1f00-4d47-ada7-d971491d5da3",
       "key": "baseUrl",
       "value": "http://0.0.0.0:8001",
       "type": "string"
