@@ -90,6 +90,92 @@
               "cookie": [],
               "responseTime": null,
               "body": "{ \"message\": \"Olá Fulano\" }"
+            },
+            {
+              "id": "e14c9174-3e8f-433e-93c7-ad2a4487c55b",
+              "name": "api/ola/{pessoa}",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/ola/:pessoa",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "ola",
+                    ":pessoa"
+                  ],
+                  "variable": [
+                    {
+                      "key": "pessoa",
+                      "value": "Fulano de Tal"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Host",
+                  "value": "0.0.0.0:8001"
+                },
+                {
+                  "key": "Date",
+                  "value": "Wed, 26 Jan 2022 13:27:46 GMT"
+                },
+                {
+                  "key": "Date",
+                  "value": "Wed, 26 Jan 2022 13:27:46 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "close"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "PHP/8.0.12"
+                },
+                {
+                  "key": "algo",
+                  "value": "algo"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, private"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "X-RateLimit-Limit",
+                  "value": "60"
+                },
+                {
+                  "key": "X-RateLimit-Remaining",
+                  "value": "59"
+                },
+                {
+                  "key": "Access-Control-Allow-Origin",
+                  "value": "*"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"message\": \"Olá Fulano de Tal\",\n    \"first_user\": null\n}"
             }
           ]
         }
@@ -99,7 +185,7 @@
   ],
   "variable": [
     {
-      "id": "52cac44c-e0ed-4ae7-b420-c06092a12258",
+      "id": "1fafd5cd-d68a-4f4f-8764-75ca4ba70792",
       "key": "baseUrl",
       "value": "http://0.0.0.0:8001",
       "type": "string"
