@@ -42,7 +42,7 @@
               "variable": [
                 {
                   "key": "pessoa",
-                  "value": "Fulano de Tal"
+                  "value": "Fulano de Talia"
                 }
               ]
             }
@@ -76,7 +76,7 @@
                   "variable": [
                     {
                       "key": "pessoa",
-                      "value": "Fulano de Tal"
+                      "value": "Fulano de Talia"
                     }
                   ]
                 }
