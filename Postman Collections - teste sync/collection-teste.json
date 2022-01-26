@@ -1,0 +1,108 @@
+{
+  "info": {
+    "_postman_id": "56f66299-887d-4443-8d85-5be1a11e5232",
+    "name": "Laravel",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Endpoints",
+      "item": [
+        {
+          "name": "api/ola/{pessoa}",
+          "id": "6a4b8af5-6f1a-4748-b6f2-5c8ecb213169",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/ola/:pessoa",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ola",
+                ":pessoa"
+              ],
+              "variable": [
+                {
+                  "key": "pessoa",
+                  "value": "Fulano de Tal"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "id": "3ee4a71a-16d3-4006-8146-19610f4d2baa",
+              "name": "response",
+              "originalRequest": {
+                "auth": {
+                  "type": "noauth"
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/ola/:pessoa",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "ola",
+                    ":pessoa"
+                  ],
+                  "variable": [
+                    {
+                      "key": "pessoa",
+                      "value": "Fulano de Tal"
+                    }
+                  ]
+                }
+              },
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{ \"message\": \"Olá Fulano\" }"
+            }
+          ]
+        }
+      ],
+      "id": "4ceb8dee-7423-4601-b1f8-f75f16f9c1b7"
+    }
+  ],
+  "variable": [
+    {
+      "id": "52cac44c-e0ed-4ae7-b420-c06092a12258",
+      "key": "baseUrl",
+      "value": "http://0.0.0.0:8001",
+      "type": "string"
+    }
+  ]
+}
